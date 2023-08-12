@@ -1,0 +1,9 @@
+[Unit]
+Description= Hourly Script Service
+
+[Service]
+Type=simple
+ExecStart=/home/ubuntu/training/shell/shell_script.sh
+
+[Install]
+WantedBy=default.target

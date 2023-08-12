@@ -1,0 +1,9 @@
+[Unit]
+Description=Hourly Kernel Log Backup Timer
+
+[Timer]
+OnCalendar=*:0
+Persistent=true
+
+[Install]
+WantedBy=timers.target
